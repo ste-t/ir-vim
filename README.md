@@ -1,11 +1,14 @@
 # IR Vim
 
+<details>
+<summary><b>Watch the demo video!</b></summary>
 https://user-images.githubusercontent.com/71498817/182047050-8cb6e54d-a0f2-489a-97b5-e2088d85da75.mp4
+</details>
 
 ## What is this?
 
 <img align="right" src="assets/result.jpg" alt="Image showcasing the result" height="400em"/>
-A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its innovative **modal system**, you will never again have to leave the sofa while watching a film to pause or change the volume.
+A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its innovative <b>modal system</b>, you will never again have to leave the sofa while watching a film to pause or change the volume.
 <br clear="right"/>
 
 ## The modal system
