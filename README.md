@@ -1,9 +1,6 @@
 # IR Vim
 
-<video controls autoplay loop>
-  <source src="assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/71498817/182047050-8cb6e54d-a0f2-489a-97b5-e2088d85da75.mp4
 
 ## What is this?
 
