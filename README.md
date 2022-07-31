@@ -95,7 +95,7 @@ const Mapping key_mappings[MODES][4] = {
 typedef struct {
   uint32_t ir_code;        // IR code to be detected
   uint8_t kb_code;         // Keyboard HID code to be sent
-  bool is_repeatable;      // Will holding down be ignored?
+  bool is_repeatable;      // Will held-down buttons be processed?
   String serial_debug_msg; // Debug message
 } Mapping;
 ```
