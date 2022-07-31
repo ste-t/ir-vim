@@ -59,7 +59,7 @@ I used PlatformIO with VSCode to make this, but the Arduino IDE should work fine
 You need to edit the `src/main.cpp` file and:
 
 -   Specify the pin you connected your sensor to by editing the `#define IRMP_INPUT_PIN` line.
--   Edit this section to configure your keys
+-   Edit this section to configure your keys:
 
 ```cpp
 #define MODAL_KEY 0xB946  // Goes to the next mode or 0 after reaching the end
@@ -88,7 +88,7 @@ const Mapping key_mappings[MODES][4] = {
 };
 ```
 
--   This section of the code explains how the configuration works
+-   This section of the code explains how the configuration works:
 
 ```cpp
 // Contains all the information needed for one key association
