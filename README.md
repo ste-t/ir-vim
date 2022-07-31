@@ -4,7 +4,9 @@ https://user-images.githubusercontent.com/71498817/182047050-8cb6e54d-a0f2-489a-
 
 ## What is this?
 
-A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its innovative **modal system**, you will never again have to leave the sofa while watching a film to pause or change the volume.
+A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its innovative **modal system**, you will never again have to leave the sofa while watching a film to pause or change the volume.  
+  
+<img src="assets/icon.jpg" alt="Image showcasing the result" width="40%"/> 
 
 ## The modal system
 
