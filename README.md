@@ -2,7 +2,11 @@
 
 <details>
 <summary><b>Watch the demo video!</b></summary>
-https://user-images.githubusercontent.com/71498817/182047050-8cb6e54d-a0f2-489a-97b5-e2088d85da75.mp4
+
+<a href="https://user-images.githubusercontent.com/71498817/182047050-8cb6e54d-a0f2-489a-97b5-e2088d85da75.mp4">
+<img alt="Demo video (click here if you see this)" src="assets/demo-thumbnail.jpg" width="55%"></img>
+</a>
+
 </details>
 
 ## What is this?
