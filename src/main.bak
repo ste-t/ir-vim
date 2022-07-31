@@ -1,0 +1,62 @@
+/*
+ * Il mastro Stefanuzzo
+ * https://github.com/ilmastrostefanuzzo
+ */
+
+#include <Arduino.h>
+#include <IRremote.hpp>
+
+// When debugging, the program will print to serial instead of
+// sending the actual keypresses
+#define SERIAL_DEBUG
+
+// Pin aliases
+#define IR_RECV_PIN 2
+
+// Keyboard report buffer
+uint8_t buf[8] = {0x00};
+
+// Declare functions which are defined at the bottom for readability
+void releaseKey();
+void sendKey(const uint8_t key, const char *serial_debug_msg);
+
+void setup() {
+  Serial.begin(9600);
+  IrReceiver.begin(IR_RECV_PIN, DISABLE_LED_FEEDBACK); // Start the receiver
+}
+
+void loop() {
+  if (IrReceiver.decode()) {
+#ifdef SERIAL_DEBUG
+    // IrReceiver.printIRResultShort(&Serial);
+#endif
+
+    // Bottom four buttons:
+    // BA450707 B8470707 B54A0707 B7480707
+    if (IrReceiver.decodedIRData.decodedRawData == 0xB8470707) {
+      sendKey(0x2c, "Space");
+    }
+
+    delay(50);
+    IrReceiver.resume(); // Enable receiving of the next value
+  }
+}
+
+void releaseKey() {
+  buf[0] = 0;
+  buf[2] = 0;
+  Serial.write(buf, 8);
+}
+
+// The first argument is the code for the keypress, the second one is the
+// message to print to serial when debugging
+void sendKey(const uint8_t key, const char *serial_debug_msg) {
+#ifndef SERIAL_DEBUG
+  buf[2] = key;
+  Serial.write(buf, 8); // Send keypress
+#else
+  Serial.println(serial_debug_msg);
+#endif
+
+  releaseKey();
+}
