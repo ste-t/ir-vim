@@ -15,6 +15,15 @@
 A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its innovative <b>modal system</b>, you will never again have to leave the sofa while watching a film to pause or change the volume.
 <br clear="right"/>
 
+### Features
+
+- Bind to any keyboard keys.
+- Choose if a button will ignore being held down or not.
+- Debugging system which makes customization easy.
+- Add an indefinite amount of modes.
+- Go to the next mode with a button.
+- Go to mode 0 with a button to never get lost.
+
 ## The modal system
 
 The name of this project comes from Vim, a modal text editor.  
