@@ -20,7 +20,7 @@ The Arduino UNO doesn't support HID, but it is still possible to make it work in
 
 ### HID-compatible boards
 
-Currently, this is not going to work on boards which actually support HID, but I will very soon get my hands on one of them and make the code work (which requires just a very few simple additions).
+Currently, this code is not going to work on boards which actually support HID, but I will very soon get my hands on one of them and make the code work (which requires just a very few simple additions).
 
 ## How to?
 
@@ -93,4 +93,4 @@ typedef struct {
 
 -   To find out the IR codes you need, upload to the Arduino, open the serial monitor and press the buttons on your remote.
 
--   Once everything is ready and you made sure to [read the important warning](#important-warning), comment out the `#define SERIAL_DEBUG` line at the beginning of the file and upload.
+-   Once everything is ready and you made sure you [read the important warning](#important-warning), comment out the `#define SERIAL_DEBUG` line at the beginning of the file and upload.
