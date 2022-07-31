@@ -11,7 +11,7 @@
 
 ## What is this?
 
-<img align="right" src="assets/result.jpg" alt="Image showcasing the result" height="400em"/>
+<img align="right" src="assets/result.jpg" alt="Image showcasing the result" width="40%"/>
 A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its innovative <b>modal system</b>, you will never again have to leave the sofa while watching a film to pause or change the volume.
 <br clear="right"/>
 
