@@ -17,7 +17,7 @@ A way to connect your TV, speakers, RGB, etc. remote to your PC. Thanks to its i
 
 ### Features
 
-- Bind to any keyboard keys.
+- Bind to any keyboard key.
 - Choose if a button will ignore being held down or not.
 - Debugging system which makes customization easy.
 - Add an indefinite amount of modes.
