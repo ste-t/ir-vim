@@ -32,9 +32,9 @@ You will need:
 -   An IR sensor, which you can buy or salvage from an old TV decoder like me if you want to do a little bit of soldering.
 
 <p align="middle">
-    <img alt="Arduino Leonardo image" src="assets/leonardo.jpg" width="33%"/>
-    <img alt="Salvaged IR receiver image" src="assets/decoder-irreceiver.jpg" width="33%"/></a>
-    <img alt="IR receiver image" src="assets/irreceiver.jpg" width="33%" />
+    <img alt="Arduino Leonardo image" src="assets/leonardo.jpg" width="32%"/>
+    <img alt="Salvaged IR receiver image" src="assets/decoder-irreceiver.jpg" width="32%"/></a>
+    <img alt="IR receiver image" src="assets/irreceiver.jpg" width="32%" />
 </p>
 
 ### Cicuit
